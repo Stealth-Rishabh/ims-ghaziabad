@@ -1,0 +1,113 @@
+<FilesMatch "\.(php|html)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+</FilesMatch>
+# Enable rewrite engine
+RewriteEngine On
+
+# Force HTTPS and www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^ims-ghaziabad\.ac\.in$ [NC]
+RewriteRule ^ https://www.ims-ghaziabad.ac.in%{REQUEST_URI} [L,R=301]
+
+# About Section
+RewriteRule ^about/ims-ghaziabad/?$ /ims-ghaziabad.php [L]
+RewriteRule ^about/executive-council/?$ /executive-council.php [L]
+RewriteRule ^about/governing-council/?$ /governing-council.php [L]
+RewriteRule ^about/academic-council/?$ /academic-council.php [L]
+RewriteRule ^about/board-of-studies/?$ /board-of-studies.php [L]
+RewriteRule ^about/chairmans-message/?$ /chairmans-message.php [L]
+RewriteRule ^about/managing-trustees-message/?$ /managing-trustees-message.php [L]
+RewriteRule ^about/directors-message/?$ /directors-message.php [L]
+RewriteRule ^about/vision-and-mission/?$ /vision-and-mission.php [L]
+
+# Admission Section
+RewriteRule ^Admission/admission-procedure/?$ /admission-procedure.php [L]
+RewriteRule ^Admission/approval-and-accreditation/?$ /approval-and-accreditation.php [L]
+RewriteRule ^Admission/gdpi/?$ /gdpi.php [L]
+RewriteRule ^Admission/scholarship/?$ /scholarship.php [L]
+RewriteRule ^Admission/b-school-ranking/?$ /b-school-ranking.php [L]
+RewriteRule ^Admission/fee-structure/?$ /fee-structure.php [L]
+RewriteRule ^Admission/e-brochure/?$ /e-brochure.php [L]
+RewriteRule ^Admission/fpm-admission-procedure/?$ /fpm-admission-procedure.php [L]
+RewriteRule ^Admission/fpm-approval-and-accreditation/?$ /fpm-approval-and-accreditation.php [L]
+RewriteRule ^Admission/fpm-b-school-ranking/?$ /fpm-b-school-ranking.php [L]
+RewriteRule ^Admission/fpm-e-brochure/?$ /fpm-e-brochure.php [L]
+
+# Faculty Section
+RewriteRule ^faculty/accounts-department/?$ /accounts-department.php [L]
+RewriteRule ^faculty/academics-department/?$ /academics-department.php [L]
+RewriteRule ^faculty/administration/?$ /administration.php [L]
+RewriteRule ^faculty/admission-department-pgdm/?$ /admission-department-pgdm.php [L]
+RewriteRule ^faculty/examination-department/?$ /examination-department.php [L]
+RewriteRule ^faculty/hr-department/?$ /hr-department.php [L]
+RewriteRule ^faculty/it-department/?$ /it-department.php [L]
+RewriteRule ^faculty/library/?$ /library.php [L]
+RewriteRule ^faculty/training-and-placement/?$ /training-and-placement.php [L]
+RewriteRule ^faculty/registrar-office/?$ /registrar-office.php [L]
+RewriteRule ^faculty/director-office/?$ /director-office.php [L]
+RewriteRule ^faculty/mdp/?$ /mdp.php [L]
+
+# Placement Section
+RewriteRule ^placements/corporate-resource-centre/?$ /corporate-resource-centre.php [L]
+RewriteRule ^placements/placement-recruitment/?$ /placement-recruitment.php [L]
+RewriteRule ^placements/placement-report/?$ /placement-report.php [L]
+RewriteRule ^placements/recruiter-testimonial/?$ /recruiter-testimonial.php [L]
+RewriteRule ^placements/post-a-job/?$ /post-a-job.php [L]
+
+# LifeIMS Section
+RewriteRule ^lifeims/lecture-rooms/?$ /lecture-rooms.php [L]
+RewriteRule ^lifeims/learn-grow/?$ /learn-grow.php [L]
+RewriteRule ^lifeims/residential-accommodation/?$ /residential-accommodation.php [L]
+RewriteRule ^lifeims/cafeteria/?$ /cafeteria.php [L]
+RewriteRule ^lifeims/computer-labs/?$ /computer-labs.php [L]
+RewriteRule ^lifeims/club-ims/?$ /club-ims.php [L]
+RewriteRule ^lifeims/event-melange-december-2024/?$ /event-melange-december-2024.php [L]
+RewriteRule ^lifeims/event-melange-january-2024/?$ /event-melange-january-2024.php [L]
+
+# Other Static Pages
+RewriteRule ^research/?$ /research.php [L]
+RewriteRule ^library-resources/?$ /library-resources.php [L]
+
+RewriteRule ^blogs/?$ /blogs.php [L]
+
+RewriteRule ^blogs/page/([0-9]+)/?$ blogs.php?page=$1 [L,QSA]
+
+RewriteRule ^contact/?$ /contact.php [L]
+RewriteRule ^best-pgdm-college-in-delhi-ncr/?$ /best-pgdm-college-in-delhi-ncr.php [L]
+RewriteRule ^pgdm-admission-2025-ims-ghaziabad/?$ /pgdm-admission-2025-ims-ghaziabad.php [L]
+RewriteRule ^research-and-development/?$ /research-and-development.php [L]
+RewriteRule ^eoms-policy/?$ /eoms-policy.php [L]
+RewriteRule ^mou/?$ /mou.php [L]
+RewriteRule ^virtual-tour/?$ /virtual-tour.php [L]
+RewriteRule ^management-development-programmes/?$ /management-development-programmes.php [L]
+RewriteRule ^pgdm-programmes/?$ /pgdm-programmes.php [L]
+RewriteRule ^nirf/?$ /nirf.php [L]
+RewriteRule ^ims-group-institutions/?$ /ims-group-institutions.php [L]
+RewriteRule ^statutory-committees/?$ /statutory-committees.php [L]
+RewriteRule ^pgdm-placement-success/?$ /pgdm-placement-success.php [L]
+RewriteRule ^experts-views/?$ /experts-views.php [L]
+RewriteRule ^grievance-redressal-policy/?$ /grievance-redressal-policy.php [L]
+RewriteRule ^professional-associations/?$ /professional-associations.php [L]
+RewriteRule ^annual-report/?$ /annual-report.php [L]
+RewriteRule ^privacy-policy/?$ /privacy-policy.php [L]
+RewriteRule ^alumni/?$ /alumni.php [L]
+
+# Dynamic URL Rewrites for Clean URLs
+RewriteCond %{THE_REQUEST} \s/faculty\.php\?url=([^&\s]+) [NC]
+RewriteRule ^faculty\.php$ /faculty/%1? [R=301,L]
+RewriteRule ^faculty/([^/]+)$ /faculty.php?url=$1 [L]
+
+RewriteCond %{THE_REQUEST} \s/faculty-detail\.php\?url=([^&\s]+) [NC]
+RewriteRule ^faculty-detail\.php$ /faculty/details/%1? [R=301,L]
+RewriteRule ^faculty/details/([^/]+)$ /faculty-detail.php?url=$1 [L]
+
+RewriteCond %{THE_REQUEST} \s/blog\.php\?url=([^&\s]+) [NC]
+RewriteRule ^blog\.php$ /blog/%1? [R=301,L]
+RewriteRule ^blog/([^/]+)$ /blog.php?url=$1 [L]
+
+# PHP Handler
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>

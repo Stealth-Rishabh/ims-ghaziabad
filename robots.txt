@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /faculty-login/
+Sitemap: https://www.ims-ghaziabad.ac.in/sitemap.xml

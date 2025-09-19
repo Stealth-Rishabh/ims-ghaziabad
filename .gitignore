@@ -1,0 +1,27 @@
+# backups + archives
+backup*.zip
+*.zip
+
+# database dumps
+*.sql
+
+# logs
+*.log
+logs/
+error_log
+
+# mail / temp
+mail/
+tmp/
+cache/
+
+# env / secrets / certificates
+.env
+*.pem
+*.key
+config.php
+wp-config.php
+
+# Node / build
+node_modules/
+dist/
