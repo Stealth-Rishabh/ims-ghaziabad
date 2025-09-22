@@ -70,9 +70,12 @@ RewriteRule ^lifeims/event-melange-january-2024/?$ /event-melange-january-2024.p
 RewriteRule ^research/?$ /research.php [L]
 RewriteRule ^library-resources/?$ /library-resources.php [L]
 
-RewriteRule ^blogs/?$ /blogs.php [L]
+# Redirect old /blogs URL to new /blog URL for consistency
+RewriteRule ^blogs/?$ /blog [R=301,L]
 
-RewriteRule ^blogs/page/([0-9]+)/?$ blogs.php?page=$1 [L,QSA]
+RewriteRule ^blog/?$ /blogs.php [L]
+
+RewriteRule ^blog/page/([0-9]+)/?$ blogs.php?page=$1 [L,QSA]
 
 RewriteRule ^contact/?$ /contact.php [L]
 RewriteRule ^best-pgdm-college-in-delhi-ncr/?$ /best-pgdm-college-in-delhi-ncr.php [L]

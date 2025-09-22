@@ -215,7 +215,7 @@
                         </li>
                       
                           <li aria-haspopup="true"><a href="alumni">Alumni</a></li>
-                        <li aria-haspopup="true"><a href="blogs">Blogs</a></li>
+                        <li aria-haspopup="true"><a href="blog">Blogs</a></li>
                         
                         <li aria-haspopup="true" class="last-child"><a href="contact" style="font-weight: 600;text-transform: uppercase;font-size: 14px;border-radius: 0px;">Contact Us</a></li>
 

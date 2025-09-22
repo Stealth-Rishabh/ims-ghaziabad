@@ -11,7 +11,7 @@
     <meta name="keywords" content="Blogs | IMS Ghaziabad" />
     <meta name="description" content="Blogs | IMS Ghaziabad" />
 
-    <link rel="canonical" href="https://www.ims-ghaziabad.ac.in/blogs" />
+    <link rel="canonical" href="https://www.ims-ghaziabad.ac.in/blog" />
     <meta name="google-site-verification" content="B7GMgmL214oZmqNA26aHwQ2k8z-24IblhbDd0xOWns0" />
     <link rel="shortcut icon" type="image/x-icon" href="public/frontend/images/favicon.png" defer>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
@@ -268,19 +268,19 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_blog WHERE status='1' ORDER BY id 
             <ul class="pagination justify-content-center">
                 <?php if ($page > 1): ?>
                     <li class="page-item">
-                        <a class="page-link" href="/blogs/page/<?php echo $page - 1; ?>">&laquo; Prev</a>
+                        <a class="page-link" href="/blog/page/<?php echo $page - 1; ?>">&laquo; Prev</a>
                     </li>
                 <?php endif; ?>
 
                 <?php for ($i = 1; $i <= $total_pages; $i++): ?>
                     <li class="page-item <?php if ($i == $page) echo 'active'; ?>">
-                        <a class="page-link" href="/blogs/page/<?php echo $i; ?>"><?php echo $i; ?></a>
+                        <a class="page-link" href="/blog/page/<?php echo $i; ?>"><?php echo $i; ?></a>
                     </li>
                 <?php endfor; ?>
 
                 <?php if ($page < $total_pages): ?>
                     <li class="page-item">
-                        <a class="page-link" href="/blogs/page/<?php echo $page + 1; ?>">Next &raquo;</a>
+                        <a class="page-link" href="/blog/page/<?php echo $page + 1; ?>">Next &raquo;</a>
                     </li>
                 <?php endif; ?>
             </ul>
