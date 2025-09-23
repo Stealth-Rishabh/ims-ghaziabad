@@ -159,6 +159,7 @@
             display: flex;
             flex-direction: column;
             height: 100%; /* Use full height of card */
+            justify-content: space-between; /* Distribute content evenly */
         }
 
         /* Title styling - limit to 3 lines */
@@ -171,8 +172,7 @@
             line-height: 1.4;
             min-height: 4.2em; /* 3 lines * 1.4 line-height */
             margin-bottom: 1rem;
-            /* Fallback for older browsers */
-            max-height: 4.2em;
+            flex-shrink: 0; /* Don't shrink the title */
         }
 
         /* Fallback for browsers that don't support line-clamp */
@@ -202,10 +202,12 @@
             color: #e9b320;
         }
 
-        /* Description styling - fixed height */
+        /* Description styling - fixed height, no extra margin */
         .blog-three-column .news-block .news-inner-box .lower-content p {
             flex-grow: 1;
-            margin-bottom: 1rem;
+            margin-bottom: 0; /* Remove bottom margin */
+            display: flex;
+            flex-direction: column;
         }
 
         .blog-three-column .news-block .news-inner-box .lower-content p div {
@@ -217,8 +219,7 @@
             line-height: 1.5;
             min-height: 6em; /* 4 lines * 1.5 line-height */
             color: #666;
-            /* Fallback for older browsers */
-            max-height: 6em;
+            flex-grow: 1; /* Take available space */
         }
 
         /* Fallback for browsers that don't support line-clamp */
@@ -238,10 +239,11 @@
             }
         }
 
-        /* Button styling - always at bottom */
+        /* Button styling - always at bottom, no extra spacing */
         .blog-three-column .news-block .news-inner-box .lower-content .common_btn-box {
-            margin-top: auto;
-            padding-top: 1rem;
+            margin-top: 1rem; /* Consistent spacing from description */
+            padding-top: 0; /* Remove extra padding */
+            flex-shrink: 0; /* Don't shrink the button */
         }
 
         .page-item.active .page-link {
