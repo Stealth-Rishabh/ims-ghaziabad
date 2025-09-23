@@ -31,6 +31,117 @@
         .wsmenu-list ul.sub-menu li.active a {
             color: #fff !important;
         }
+
+        /* Blog Card Equal Height and Line Clamp Styles */
+        .news-block {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        .news-inner-box {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .news-inner-box:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .blog__image-box {
+            flex-shrink: 0;
+        }
+
+        .blog__image-box .image img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .lower-content {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .lower-content h1 {
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .lower-content h1 a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-height: 3.9em; /* 3 lines * 1.3 line-height */
+        }
+
+        .lower-content h1 a:hover {
+            color: #0d6efd;
+        }
+
+        .lower-content p {
+            flex-grow: 1;
+            margin-bottom: 20px;
+        }
+
+        .lower-content p div {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.5;
+            color: #666;
+            min-height: 4.5em; /* 3 lines * 1.5 line-height */
+        }
+
+        .common_btn-box {
+            margin-top: auto;
+        }
+
+        .common_btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #0d6efd 0%, #ffc107 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .common_btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .lower-content h1 a {
+                -webkit-line-clamp: 2;
+                min-height: 2.6em;
+            }
+            
+            .lower-content p div {
+                -webkit-line-clamp: 2;
+                min-height: 3em;
+            }
+        }
     </style>
 
     <!-- Google Tag Manager -->
@@ -231,7 +342,6 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_blog WHERE status='1' ORDER BY id 
         <div class="row">
             <?php while ($row = mysqli_fetch_assoc($sql)) {
                 extract($row);
-                $dec = substr($row['description'], 0, 190);
             ?>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 news-block translateY">
                     <div class="news-inner-box">
@@ -249,7 +359,7 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_blog WHERE status='1' ORDER BY id 
                         <div class="lower-content">
                             <h1 class="mb-2 fs-5"><a class="text-blue" href="blog/<?php echo $url; ?>"><?php echo $title; ?></a></h1>
                             <p>
-                            <div> <?php echo $dec; ?> ... </div>
+                                <div><?php echo $description; ?></div>
                             </p>
                             <div class="common_btn-box mt-4">
                                 <center><a class="common_btn" style="width: 100%;" href="blog/<?php echo $url; ?>"><span>Read More &gt;&gt;</span></a></center>
