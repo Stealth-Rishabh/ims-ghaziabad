@@ -70,41 +70,58 @@
             padding: 20px;
         }
 
+        /* Force line clamp to work by ensuring proper display */
+        .lower-content h1,
+        .lower-content h1 a,
+        .lower-content p,
+        .lower-content p div {
+            max-width: 100%;
+        }
+
         .lower-content h1 {
             margin-bottom: 15px;
             line-height: 1.3;
+            height: 3.9em; /* Fixed height for 3 lines */
+            overflow: hidden;
         }
 
         .lower-content h1 a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 600;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            min-height: 3.9em; /* 3 lines * 1.3 line-height */
+            text-decoration: none !important;
+            color: #333 !important;
+            font-weight: 600 !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 3 !important;
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+            line-height: 1.3 !important;
+            height: 100% !important;
+            word-wrap: break-word !important;
+            white-space: normal !important;
         }
 
         .lower-content h1 a:hover {
-            color: #0d6efd;
+            color: #0d6efd !important;
         }
 
         .lower-content p {
             flex-grow: 1;
             margin-bottom: 20px;
+            height: 4.5em; /* Fixed height for 3 lines */
+            overflow: hidden;
         }
 
         .lower-content p div {
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            line-height: 1.5;
-            color: #666;
-            min-height: 4.5em; /* 3 lines * 1.5 line-height */
+            display: -webkit-box !important;
+            -webkit-line-clamp: 3 !important;
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+            line-height: 1.5 !important;
+            color: #666 !important;
+            height: 100% !important;
+            word-wrap: break-word !important;
+            white-space: normal !important;
         }
 
         .common_btn-box {
@@ -130,19 +147,96 @@
             text-decoration: none;
         }
 
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
+        /* Fallback for browsers that don't support webkit-line-clamp */
+        @supports not (-webkit-line-clamp: 3) {
             .lower-content h1 a {
-                -webkit-line-clamp: 2;
-                min-height: 2.6em;
+                display: block;
+                position: relative;
+            }
+            
+            .lower-content h1 a::after {
+                content: '...';
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background: white;
+                padding-left: 5px;
             }
             
             .lower-content p div {
-                -webkit-line-clamp: 2;
-                min-height: 3em;
+                display: block;
+                position: relative;
+            }
+            
+            .lower-content p div::after {
+                content: '...';
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background: white;
+                padding-left: 5px;
+            }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .lower-content h1 {
+                height: 2.6em; /* 2 lines */
+            }
+            
+            .lower-content h1 a {
+                -webkit-line-clamp: 2 !important;
+            }
+            
+            .lower-content p {
+                height: 3em; /* 2 lines */
+            }
+            
+            .lower-content p div {
+                -webkit-line-clamp: 2 !important;
             }
         }
     </style>
+
+    <!-- JavaScript fallback for line clamping -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Function to truncate text to specified number of lines
+            function truncateText(element, maxLines) {
+                const lineHeight = parseFloat(getComputedStyle(element).lineHeight);
+                const maxHeight = lineHeight * maxLines;
+                
+                if (element.scrollHeight > maxHeight) {
+                    const text = element.textContent;
+                    const words = text.split(' ');
+                    let truncatedText = '';
+                    
+                    for (let i = 0; i < words.length; i++) {
+                        const testText = truncatedText + words[i] + ' ';
+                        element.textContent = testText;
+                        
+                        if (element.scrollHeight > maxHeight) {
+                            element.textContent = truncatedText.trim() + '...';
+                            break;
+                        }
+                        truncatedText = testText;
+                    }
+                }
+            }
+            
+            // Apply truncation to all blog titles and descriptions
+            const titles = document.querySelectorAll('.lower-content h1 a');
+            const descriptions = document.querySelectorAll('.lower-content p div');
+            
+            titles.forEach(function(title) {
+                truncateText(title, 3);
+            });
+            
+            descriptions.forEach(function(description) {
+                truncateText(description, 3);
+            });
+        });
+    </script>
 
     <!-- Google Tag Manager -->
     <script>
