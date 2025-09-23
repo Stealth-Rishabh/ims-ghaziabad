@@ -32,16 +32,17 @@
             color: #fff !important;
         }
 
-        /* Blog Card Equal Height and Line Clamp Styles */
+        /* Blog Card Equal Height and Line Clamp Styles - ROBUST VERSION */
         .news-block {
-            display: flex;
+            display: flex !important;
             margin-bottom: 30px;
+            height: 100%;
         }
 
         .news-inner-box {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
+            display: flex !important;
+            flex-direction: column !important;
+            height: 100% !important;
             border: 1px solid #e9ecef;
             border-radius: 8px;
             overflow: hidden;
@@ -58,31 +59,26 @@
         }
 
         .blog__image-box .image img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
+            width: 100% !important;
+            height: 200px !important;
+            object-fit: cover !important;
         }
 
         .lower-content {
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
+            display: flex !important;
+            flex-direction: column !important;
+            flex-grow: 1 !important;
             padding: 20px;
+            height: 100%;
         }
 
-        /* Force line clamp to work by ensuring proper display */
-        .lower-content h1,
-        .lower-content h1 a,
-        .lower-content p,
-        .lower-content p div {
-            max-width: 100%;
-        }
-
+        /* TITLE STYLING - FORCE 3 LINES */
         .lower-content h1 {
-            margin-bottom: 15px;
-            line-height: 1.3;
-            height: 3.9em; /* Fixed height for 3 lines */
-            overflow: hidden;
+            margin-bottom: 15px !important;
+            line-height: 1.3 !important;
+            height: 3.9em !important; /* Fixed height for exactly 3 lines */
+            overflow: hidden !important;
+            display: block !important;
         }
 
         .lower-content h1 a {
@@ -98,17 +94,20 @@
             height: 100% !important;
             word-wrap: break-word !important;
             white-space: normal !important;
+            max-width: 100% !important;
         }
 
         .lower-content h1 a:hover {
             color: #0d6efd !important;
         }
 
+        /* DESCRIPTION STYLING - FORCE 3 LINES */
         .lower-content p {
-            flex-grow: 1;
-            margin-bottom: 20px;
-            height: 4.5em; /* Fixed height for 3 lines */
-            overflow: hidden;
+            flex-grow: 1 !important;
+            margin-bottom: 20px !important;
+            height: 4.5em !important; /* Fixed height for exactly 3 lines */
+            overflow: hidden !important;
+            display: block !important;
         }
 
         .lower-content p div {
@@ -122,66 +121,85 @@
             height: 100% !important;
             word-wrap: break-word !important;
             white-space: normal !important;
+            max-width: 100% !important;
         }
 
         .common_btn-box {
-            margin-top: auto;
+            margin-top: auto !important;
+            flex-shrink: 0 !important;
         }
 
         .common_btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: linear-gradient(135deg, #0d6efd 0%, #ffc107 100%);
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            text-align: center;
+            display: inline-block !important;
+            padding: 10px 20px !important;
+            background: linear-gradient(135deg, #0d6efd 0%, #ffc107 100%) !important;
+            color: white !important;
+            text-decoration: none !important;
+            border-radius: 5px !important;
+            font-weight: 500 !important;
+            transition: all 0.3s ease !important;
+            text-align: center !important;
+            width: 100% !important;
         }
 
         .common_btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            color: white;
-            text-decoration: none;
+            transform: translateY(-2px) !important;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+            color: white !important;
+            text-decoration: none !important;
         }
 
-        /* Fallback for browsers that don't support webkit-line-clamp */
-        @supports not (-webkit-line-clamp: 3) {
-            .lower-content h1 a {
-                display: block;
-                position: relative;
-            }
-            
-            .lower-content h1 a::after {
-                content: '...';
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                background: white;
-                padding-left: 5px;
-            }
-            
-            .lower-content p div {
-                display: block;
-                position: relative;
-            }
-            
-            .lower-content p div::after {
-                content: '...';
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                background: white;
-                padding-left: 5px;
-            }
+        /* CSS-ONLY FALLBACK - Force truncation without webkit-line-clamp */
+        .lower-content h1 a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 1.3em;
+            background: linear-gradient(transparent, white);
+            pointer-events: none;
+        }
+        
+        .lower-content p div::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 1.5em;
+            background: linear-gradient(transparent, white);
+            pointer-events: none;
+        }
+
+        /* ULTIMATE FALLBACK - Force equal heights with absolute positioning */
+        .news-inner-box {
+            position: relative !important;
+        }
+        
+        .lower-content h1 {
+            position: relative !important;
+        }
+        
+        .lower-content p {
+            position: relative !important;
+        }
+        
+        /* Force text to be hidden beyond 3 lines using mask */
+        .lower-content h1 a {
+            mask: linear-gradient(to bottom, black 0%, black 75%, transparent 100%) !important;
+            -webkit-mask: linear-gradient(to bottom, black 0%, black 75%, transparent 100%) !important;
+        }
+        
+        .lower-content p div {
+            mask: linear-gradient(to bottom, black 0%, black 75%, transparent 100%) !important;
+            -webkit-mask: linear-gradient(to bottom, black 0%, black 75%, transparent 100%) !important;
         }
 
         /* Responsive adjustments */
         @media (max-width: 768px) {
             .lower-content h1 {
-                height: 2.6em; /* 2 lines */
+                height: 2.6em !important; /* 2 lines */
             }
             
             .lower-content h1 a {
@@ -189,7 +207,7 @@
             }
             
             .lower-content p {
-                height: 3em; /* 2 lines */
+                height: 3em !important; /* 2 lines */
             }
             
             .lower-content p div {
@@ -198,42 +216,90 @@
         }
     </style>
 
-    <!-- JavaScript fallback for line clamping -->
+    <!-- ROBUST JavaScript fallback for line clamping -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Function to truncate text to specified number of lines
-            function truncateText(element, maxLines) {
-                const lineHeight = parseFloat(getComputedStyle(element).lineHeight);
+            // Function to truncate text to specified number of lines - ROBUST VERSION
+            function truncateTextRobust(element, maxLines) {
+                if (!element) return;
+                
+                // Force styles to ensure proper measurement
+                element.style.display = 'block';
+                element.style.overflow = 'hidden';
+                element.style.wordWrap = 'break-word';
+                element.style.whiteSpace = 'normal';
+                
+                const computedStyle = getComputedStyle(element);
+                const lineHeight = parseFloat(computedStyle.lineHeight) || parseFloat(computedStyle.fontSize) * 1.3;
                 const maxHeight = lineHeight * maxLines;
                 
-                if (element.scrollHeight > maxHeight) {
-                    const text = element.textContent;
-                    const words = text.split(' ');
-                    let truncatedText = '';
+                // Store original text
+                const originalText = element.textContent || element.innerText;
+                
+                // If content is already within limits, return
+                if (element.scrollHeight <= maxHeight) {
+                    return;
+                }
+                
+                // Binary search for optimal truncation point
+                let left = 0;
+                let right = originalText.length;
+                let bestFit = 0;
+                
+                while (left <= right) {
+                    const mid = Math.floor((left + right) / 2);
+                    const testText = originalText.substring(0, mid) + '...';
+                    element.textContent = testText;
                     
-                    for (let i = 0; i < words.length; i++) {
-                        const testText = truncatedText + words[i] + ' ';
-                        element.textContent = testText;
-                        
-                        if (element.scrollHeight > maxHeight) {
-                            element.textContent = truncatedText.trim() + '...';
-                            break;
-                        }
-                        truncatedText = testText;
+                    if (element.scrollHeight <= maxHeight) {
+                        bestFit = mid;
+                        left = mid + 1;
+                    } else {
+                        right = mid - 1;
                     }
+                }
+                
+                // Apply the best fit truncation
+                if (bestFit > 0) {
+                    element.textContent = originalText.substring(0, bestFit) + '...';
+                } else {
+                    element.textContent = '...';
                 }
             }
             
-            // Apply truncation to all blog titles and descriptions
-            const titles = document.querySelectorAll('.lower-content h1 a');
-            const descriptions = document.querySelectorAll('.lower-content p div');
+            // Apply truncation with delay to ensure DOM is fully rendered
+            setTimeout(function() {
+                const titles = document.querySelectorAll('.lower-content h1 a');
+                const descriptions = document.querySelectorAll('.lower-content p div');
+                
+                console.log('Found titles:', titles.length);
+                console.log('Found descriptions:', descriptions.length);
+                
+                titles.forEach(function(title, index) {
+                    console.log('Processing title', index);
+                    truncateTextRobust(title, 3);
+                });
+                
+                descriptions.forEach(function(description, index) {
+                    console.log('Processing description', index);
+                    truncateTextRobust(description, 3);
+                });
+            }, 100);
             
-            titles.forEach(function(title) {
-                truncateText(title, 3);
-            });
-            
-            descriptions.forEach(function(description) {
-                truncateText(description, 3);
+            // Also run on window load as backup
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    const titles = document.querySelectorAll('.lower-content h1 a');
+                    const descriptions = document.querySelectorAll('.lower-content p div');
+                    
+                    titles.forEach(function(title) {
+                        truncateTextRobust(title, 3);
+                    });
+                    
+                    descriptions.forEach(function(description) {
+                        truncateTextRobust(description, 3);
+                    });
+                }, 200);
             });
         });
     </script>
@@ -352,7 +418,9 @@
 
         .blog-three-column .news-block .news-inner-box {
             position: relative;
-            display: block;
+            display: flex !important;
+            flex-direction: column !important;
+            height: 100% !important;
             margin-bottom: 2rem;
             padding: 10px;
             border: 1px solid #002147;
@@ -360,6 +428,9 @@
 
         .blog-three-column .news-block .news-inner-box .lower-content {
             padding: 1rem;
+            display: flex !important;
+            flex-direction: column !important;
+            flex-grow: 1 !important;
         }
         .page-item.active .page-link {
   
