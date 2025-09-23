@@ -63,9 +63,9 @@
                             <li class="dropdown">
                                 <a class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">ERP LOGIN <b class="caret"></b></a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a href="http://erp.ims-ghaziabad.ac.in/faculty/" target="_blank">Faculty and staff</a></li>
+                                    <li><a href="https://erp.ims-ghaziabad.ac.in/admin" target="_blank">Faculty and staff</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="http://erp.ims-ghaziabad.ac.in/student/" target="_blank">Student ERP login</a></li>
+                                    <li><a href="https://erp.ims-ghaziabad.ac.in/student" target="_blank">Student ERP login</a></li>
                                     <li class="divider"></li>
                                 </ul>
                             </li>
