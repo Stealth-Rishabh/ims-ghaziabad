@@ -151,22 +151,108 @@
             margin-bottom: 2rem;
             padding: 10px;
             border: 1px solid #002147;
+            height: 100%; /* Make cards equal height */
         }
 
         .blog-three-column .news-block .news-inner-box .lower-content {
             padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Use full height of card */
         }
-        .page-item.active .page-link {
-  
-    background-color: #002147 !important;
-    border-color: #002147 !important;
-}
-.page-link {
 
-    color: #002147;
-    font-weight: 400;
-    
-}
+        /* Title styling - limit to 3 lines */
+        .blog-three-column .news-block .news-inner-box .lower-content h1 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.4;
+            min-height: 4.2em; /* 3 lines * 1.4 line-height */
+            margin-bottom: 1rem;
+            /* Fallback for older browsers */
+            max-height: 4.2em;
+        }
+
+        /* Fallback for browsers that don't support line-clamp */
+        @supports not (-webkit-line-clamp: 3) {
+            .blog-three-column .news-block .news-inner-box .lower-content h1 {
+                max-height: 4.2em;
+                overflow: hidden;
+                position: relative;
+            }
+            .blog-three-column .news-block .news-inner-box .lower-content h1:after {
+                content: "...";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background: white;
+                padding-left: 5px;
+            }
+        }
+
+        .blog-three-column .news-block .news-inner-box .lower-content h1 a {
+            color: #002147;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .blog-three-column .news-block .news-inner-box .lower-content h1 a:hover {
+            color: #e9b320;
+        }
+
+        /* Description styling - fixed height */
+        .blog-three-column .news-block .news-inner-box .lower-content p {
+            flex-grow: 1;
+            margin-bottom: 1rem;
+        }
+
+        .blog-three-column .news-block .news-inner-box .lower-content p div {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.5;
+            min-height: 6em; /* 4 lines * 1.5 line-height */
+            color: #666;
+            /* Fallback for older browsers */
+            max-height: 6em;
+        }
+
+        /* Fallback for browsers that don't support line-clamp */
+        @supports not (-webkit-line-clamp: 4) {
+            .blog-three-column .news-block .news-inner-box .lower-content p div {
+                max-height: 6em;
+                overflow: hidden;
+                position: relative;
+            }
+            .blog-three-column .news-block .news-inner-box .lower-content p div:after {
+                content: "...";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background: white;
+                padding-left: 5px;
+            }
+        }
+
+        /* Button styling - always at bottom */
+        .blog-three-column .news-block .news-inner-box .lower-content .common_btn-box {
+            margin-top: auto;
+            padding-top: 1rem;
+        }
+
+        .page-item.active .page-link {
+            background-color: #002147 !important;
+            border-color: #002147 !important;
+        }
+
+        .page-link {
+            color: #002147;
+            font-weight: 400;
+        }
     </style>
 </head>
 
