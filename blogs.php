@@ -31,278 +31,7 @@
         .wsmenu-list ul.sub-menu li.active a {
             color: #fff !important;
         }
-
-        /* Blog Card Equal Height and Line Clamp Styles - ROBUST VERSION */
-        .news-block {
-            display: flex !important;
-            margin-bottom: 30px;
-            height: 100%;
-        }
-
-        .news-inner-box {
-            display: flex !important;
-            flex-direction: column !important;
-            height: 100% !important;
-            border: 1px solid #e9ecef;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: box-shadow 0.3s ease;
-        }
-
-        .news-inner-box:hover {
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-        }
-
-        .blog__image-box {
-            flex-shrink: 0;
-        }
-
-        .blog__image-box .image img {
-            width: 100% !important;
-            height: 200px !important;
-            object-fit: cover !important;
-        }
-
-        .lower-content {
-            display: flex !important;
-            flex-direction: column !important;
-            flex-grow: 1 !important;
-            padding: 20px;
-            height: 100%;
-        }
-
-        /* TITLE STYLING - FORCE 3 LINES */
-        .lower-content h1 {
-            margin-bottom: 15px !important;
-            line-height: 1.3 !important;
-            height: 3.9em !important; /* Fixed height for exactly 3 lines */
-            overflow: hidden !important;
-            display: block !important;
-        }
-
-        .lower-content h1 a {
-            text-decoration: none !important;
-            color: #333 !important;
-            font-weight: 600 !important;
-            display: -webkit-box !important;
-            -webkit-line-clamp: 3 !important;
-            -webkit-box-orient: vertical !important;
-            overflow: hidden !important;
-            text-overflow: ellipsis !important;
-            line-height: 1.3 !important;
-            height: 100% !important;
-            word-wrap: break-word !important;
-            white-space: normal !important;
-            max-width: 100% !important;
-        }
-
-        .lower-content h1 a:hover {
-            color: #0d6efd !important;
-        }
-
-        /* DESCRIPTION STYLING - FORCE 3 LINES */
-        .lower-content p {
-            flex-grow: 1 !important;
-            margin-bottom: 20px !important;
-            height: 4.5em !important; /* Fixed height for exactly 3 lines */
-            overflow: hidden !important;
-            display: block !important;
-        }
-
-        .lower-content p div {
-            display: -webkit-box !important;
-            -webkit-line-clamp: 3 !important;
-            -webkit-box-orient: vertical !important;
-            overflow: hidden !important;
-            text-overflow: ellipsis !important;
-            line-height: 1.5 !important;
-            color: #666 !important;
-            height: 100% !important;
-            word-wrap: break-word !important;
-            white-space: normal !important;
-            max-width: 100% !important;
-        }
-
-        .common_btn-box {
-            margin-top: auto !important;
-            flex-shrink: 0 !important;
-        }
-
-        .common_btn {
-            display: inline-block !important;
-            padding: 10px 20px !important;
-            background: linear-gradient(135deg, #0d6efd 0%, #ffc107 100%) !important;
-            color: white !important;
-            text-decoration: none !important;
-            border-radius: 5px !important;
-            font-weight: 500 !important;
-            transition: all 0.3s ease !important;
-            text-align: center !important;
-            width: 100% !important;
-        }
-
-        .common_btn:hover {
-            transform: translateY(-2px) !important;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
-            color: white !important;
-            text-decoration: none !important;
-        }
-
-        /* CSS-ONLY FALLBACK - Force truncation without webkit-line-clamp */
-        .lower-content h1 a::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 100%;
-            height: 1.3em;
-            background: linear-gradient(transparent, white);
-            pointer-events: none;
-        }
-        
-        .lower-content p div::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 100%;
-            height: 1.5em;
-            background: linear-gradient(transparent, white);
-            pointer-events: none;
-        }
-
-        /* ULTIMATE FALLBACK - Force equal heights with absolute positioning */
-        .news-inner-box {
-            position: relative !important;
-        }
-        
-        .lower-content h1 {
-            position: relative !important;
-        }
-        
-        .lower-content p {
-            position: relative !important;
-        }
-        
-        /* Force text to be hidden beyond 3 lines using mask */
-        .lower-content h1 a {
-            mask: linear-gradient(to bottom, black 0%, black 75%, transparent 100%) !important;
-            -webkit-mask: linear-gradient(to bottom, black 0%, black 75%, transparent 100%) !important;
-        }
-        
-        .lower-content p div {
-            mask: linear-gradient(to bottom, black 0%, black 75%, transparent 100%) !important;
-            -webkit-mask: linear-gradient(to bottom, black 0%, black 75%, transparent 100%) !important;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .lower-content h1 {
-                height: 2.6em !important; /* 2 lines */
-            }
-            
-            .lower-content h1 a {
-                -webkit-line-clamp: 2 !important;
-            }
-            
-            .lower-content p {
-                height: 3em !important; /* 2 lines */
-            }
-            
-            .lower-content p div {
-                -webkit-line-clamp: 2 !important;
-            }
-        }
     </style>
-
-    <!-- ROBUST JavaScript fallback for line clamping -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Function to truncate text to specified number of lines - ROBUST VERSION
-            function truncateTextRobust(element, maxLines) {
-                if (!element) return;
-                
-                // Force styles to ensure proper measurement
-                element.style.display = 'block';
-                element.style.overflow = 'hidden';
-                element.style.wordWrap = 'break-word';
-                element.style.whiteSpace = 'normal';
-                
-                const computedStyle = getComputedStyle(element);
-                const lineHeight = parseFloat(computedStyle.lineHeight) || parseFloat(computedStyle.fontSize) * 1.3;
-                const maxHeight = lineHeight * maxLines;
-                
-                // Store original text
-                const originalText = element.textContent || element.innerText;
-                
-                // If content is already within limits, return
-                if (element.scrollHeight <= maxHeight) {
-                    return;
-                }
-                
-                // Binary search for optimal truncation point
-                let left = 0;
-                let right = originalText.length;
-                let bestFit = 0;
-                
-                while (left <= right) {
-                    const mid = Math.floor((left + right) / 2);
-                    const testText = originalText.substring(0, mid) + '...';
-                    element.textContent = testText;
-                    
-                    if (element.scrollHeight <= maxHeight) {
-                        bestFit = mid;
-                        left = mid + 1;
-                    } else {
-                        right = mid - 1;
-                    }
-                }
-                
-                // Apply the best fit truncation
-                if (bestFit > 0) {
-                    element.textContent = originalText.substring(0, bestFit) + '...';
-                } else {
-                    element.textContent = '...';
-                }
-            }
-            
-            // Apply truncation with delay to ensure DOM is fully rendered
-            setTimeout(function() {
-                const titles = document.querySelectorAll('.lower-content h1 a');
-                const descriptions = document.querySelectorAll('.lower-content p div');
-                
-                console.log('Found titles:', titles.length);
-                console.log('Found descriptions:', descriptions.length);
-                
-                titles.forEach(function(title, index) {
-                    console.log('Processing title', index);
-                    truncateTextRobust(title, 3);
-                });
-                
-                descriptions.forEach(function(description, index) {
-                    console.log('Processing description', index);
-                    truncateTextRobust(description, 3);
-                });
-            }, 100);
-            
-            // Also run on window load as backup
-            window.addEventListener('load', function() {
-                setTimeout(function() {
-                    const titles = document.querySelectorAll('.lower-content h1 a');
-                    const descriptions = document.querySelectorAll('.lower-content p div');
-                    
-                    titles.forEach(function(title) {
-                        truncateTextRobust(title, 3);
-                    });
-                    
-                    descriptions.forEach(function(description) {
-                        truncateTextRobust(description, 3);
-                    });
-                }, 200);
-            });
-        });
-    </script>
 
     <!-- Google Tag Manager -->
     <script>
@@ -418,9 +147,7 @@
 
         .blog-three-column .news-block .news-inner-box {
             position: relative;
-            display: flex !important;
-            flex-direction: column !important;
-            height: 100% !important;
+            display: block;
             margin-bottom: 2rem;
             padding: 10px;
             border: 1px solid #002147;
@@ -428,9 +155,6 @@
 
         .blog-three-column .news-block .news-inner-box .lower-content {
             padding: 1rem;
-            display: flex !important;
-            flex-direction: column !important;
-            flex-grow: 1 !important;
         }
         .page-item.active .page-link {
   
@@ -507,6 +231,7 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_blog WHERE status='1' ORDER BY id 
         <div class="row">
             <?php while ($row = mysqli_fetch_assoc($sql)) {
                 extract($row);
+                $dec = substr($row['description'], 0, 190);
             ?>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 news-block translateY">
                     <div class="news-inner-box">
@@ -524,7 +249,7 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_blog WHERE status='1' ORDER BY id 
                         <div class="lower-content">
                             <h1 class="mb-2 fs-5"><a class="text-blue" href="blog/<?php echo $url; ?>"><?php echo $title; ?></a></h1>
                             <p>
-                                <div><?php echo $description; ?></div>
+                            <div> <?php echo $dec; ?> ... </div>
                             </p>
                             <div class="common_btn-box mt-4">
                                 <center><a class="common_btn" style="width: 100%;" href="blog/<?php echo $url; ?>"><span>Read More &gt;&gt;</span></a></center>
