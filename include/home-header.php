@@ -261,14 +261,4 @@
         </div>
     </div>
 </header>
-<script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXX', {
-        linker: {
-          domains: ['ims-ghaziabad.ac.in','erp.ims-ghaziabad.ac.in'],
-          url_position: 'fragment' // puts data after # instead of ?query
-        }
-      });
-    </script>
+ 
