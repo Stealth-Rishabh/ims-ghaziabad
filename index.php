@@ -18,7 +18,7 @@
     <meta property="og:description"
         content="IMS Ghaziabad - Best PGDM College in Ghaziabad | IMS Ghaziabad stands among the top-ranked MBA/PGDM colleges in Ghaziabad with the best ranking Top B School in Delhi NCR.">
     <meta property="og:url" content="https://www.ims-ghaziabad.ac.in/">
-    <meta property="og:image" content="https://www.ims-ghaziabad.ac.in/public/images/banner/landing_page.jpg">
+    <meta property="og:image" content="https://www.ims-ghaziabad.ac.in/public/images/banner/newLanding_page.jpg">
     <meta property="og:type" content="website">
 
     <meta name="google-site-verification" content="google90132a1f93ee68f3.html" />
