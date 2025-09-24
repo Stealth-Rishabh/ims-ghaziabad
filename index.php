@@ -259,7 +259,7 @@
             </div>
             <div class="carousel-item fade-in"> <img src="/public/images/banner/6.webp" alt="IMS" class="d-block w-100">
             </div>
-            <div class="carousel-item fade-in"> <img src="/public/images/banner/landing_page.jpg" alt="IMS" class="d-block w-100">
+            <div class="carousel-item fade-in"> <img src="/public/images/banner/newLanding_page.jpg" alt="IMS" class="d-block w-100">
             </div>
             <div class="carousel-item fade-in"> <img src="/public/images/banner/2.jpg" alt="IMS" class="d-block w-100">
             </div>
@@ -300,7 +300,7 @@
             <div class="carousel-slide"><img src="/public/images/banner/immersion.jpg" alt="IMS"></div>
             <div class="carousel-slide"><img src="/public/images/banner/5.jpg" alt="IMS"></div>
             <div class="carousel-slide"><img src="/public/images/banner/6.webp" alt="IMS"></div>
-            <div class="carousel-slide"><img src="/public/images/banner/landing_page.jpg" alt="IMS"></div>
+            <div class="carousel-slide"><img src="/public/images/banner/newLanding_page.jpg" alt="IMS"></div>
             <div class="carousel-slide"><img src="/public/images/banner/2.jpg" alt="IMS"></div>
             <div class="carousel-slide"><img src="/public/images/banner/3.jpg" alt="IMS"></div>
             <div class="carousel-slide"><img src="/public/images/banner/4.jpg" alt="IMS"></div>
