@@ -63,9 +63,9 @@
                             <li class="dropdown">
                                 <a class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">ERP LOGIN <b class="caret"></b></a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a href="https://erp.ims-ghaziabad.ac.in/admin" target="_blank">Faculty and staff</a></li>
+                                    <li><a href="/go-erp-admin.php" target="_blank">Faculty and staff</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="https://erp.ims-ghaziabad.ac.in/student" target="_blank">Student ERP login</a></li>
+                                    <li><a href="/go-erp-student.php" target="_blank">Student ERP login</a></li>
                                     <li class="divider"></li>
                                 </ul>
                             </li>
@@ -246,8 +246,8 @@
 
                         <li class="mobile" aria-haspopup="true"><a href="javascript:void(0)">ERP LOGIN <i class="fas fa-angle-down"></i></a>
                             <ul class="sub-menu">
-                                <li aria-haspopup="true"><a href="http://erp.ims-ghaziabad.ac.in/faculty/" target="_blank">Faculty and staff</a></li>
-                                <li aria-haspopup="true"><a href="http://erp.ims-ghaziabad.ac.in/student/" target="_blank">Student ERP login</a></li>
+                                <li aria-haspopup="true"><a href="/go-erp-admin.php" target="_blank">Faculty and staff</a></li>
+                                <li aria-haspopup="true"><a href="/go-erp-student.php" target="_blank">Student ERP login</a></li>
                             </ul>
                         </li>
                         <!--<li class="mobile" aria-haspopup="true"><a href="{{ url('online-payment') }}">E-PAYMENT</a></li>-->
