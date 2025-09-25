@@ -145,16 +145,42 @@
             display: none;
         }
 
+        .blog-three-column .news-block {
+            display: flex;
+            height: 100%;
+        }
+
         .blog-three-column .news-block .news-inner-box {
             position: relative;
-            display: block;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
             margin-bottom: 2rem;
             padding: 10px;
             border: 1px solid #002147;
+            min-height: 480px; /* Ensures minimum consistent height */
         }
 
         .blog-three-column .news-block .news-inner-box .lower-content {
             padding: 1rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .blog-three-column .news-block .news-inner-box .lower-content h1 {
+            min-height: 3.2em; /* Ensures consistent title height for 2 lines */
+            line-height: 1.6;
+        }
+
+        .blog-three-column .news-block .news-inner-box .lower-content p {
+            flex-grow: 1;
+            min-height: 4.5em; /* Ensures consistent description area */
+        }
+
+        .blog-three-column .news-block .news-inner-box .common_btn-box {
+            margin-top: auto; /* Pushes button to bottom */
         }
         .page-item.active .page-link {
   
@@ -231,7 +257,10 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_blog WHERE status='1' ORDER BY id 
         <div class="row">
             <?php while ($row = mysqli_fetch_assoc($sql)) {
                 extract($row);
-                $dec = substr($row['description'], 0, 190);
+                // Limit title to 60 characters
+                $limited_title = strlen($title) > 60 ? substr($title, 0, 60) . '...' : $title;
+                // Limit description to 150 characters for better consistency
+                $dec = strlen($row['description']) > 150 ? substr($row['description'], 0, 150) . '...' : $row['description'];
             ?>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 news-block translateY">
                     <div class="news-inner-box">
@@ -247,9 +276,9 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_blog WHERE status='1' ORDER BY id 
                             </figure>
                         </div>
                         <div class="lower-content">
-                            <h1 class="mb-2 fs-5"><a class="text-blue" href="blog/<?php echo $url; ?>"><?php echo $title; ?></a></h1>
+                            <h1 class="mb-2 fs-5"><a class="text-blue" href="blog/<?php echo $url; ?>"><?php echo $limited_title; ?></a></h1>
                             <p>
-                            <div> <?php echo $dec; ?> ... </div>
+                            <div> <?php echo $dec; ?> </div>
                             </p>
                             <div class="common_btn-box mt-4">
                                 <center><a class="common_btn" style="width: 100%;" href="blog/<?php echo $url; ?>"><span>Read More &gt;&gt;</span></a></center>
