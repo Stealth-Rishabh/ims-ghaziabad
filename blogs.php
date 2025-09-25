@@ -176,7 +176,7 @@
 
         .blog-three-column .news-block .news-inner-box .lower-content p {
             margin-bottom: 1rem !important;
-            min-height: 4em; /* Ensures consistent description area */
+            min-height: 0em; /* Ensures consistent description area */
             flex-grow: 0; /* Prevent excessive growth */
         }
 
