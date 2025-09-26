@@ -240,6 +240,8 @@
                 data-bs-slide-to="7"></button>
         </div> <!-- The slideshow/carousel -->
         <div class="carousel-inner">
+            <div class="carousel-item active fade-in"> <img src="/public/images/banner/Website Banner1.webp"
+                    alt="IMS" class="d-block w-100"> </div>
             <div class="carousel-item active fade-in"> <img src="/public/images/banner/Website_bannerConvocation.webp"
                     alt="IMS" class="d-block w-100"> </div>
             <div class="carousel-item fade-in"> <img src="/public/images/banner/imersion_program02.jpg" alt="IMS"
@@ -291,6 +293,8 @@
     <!-- Mobile Carousel -->
     <div class="mobile-carousel">
         <div class="carousel-track">
+            <div class="carousel-slide active"><img src="/public/images/banner/Website Banner1.webp"
+                    alt="IMS"></div>
             <div class="carousel-slide active"><img src="/public/images/banner/Website_bannerConvocation.webp"
                     alt="IMS"></div>
             <div class="carousel-slide"><img src="/public/images/banner/imersion_program02.jpg" alt="IMS"></div>
