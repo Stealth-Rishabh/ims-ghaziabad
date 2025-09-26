@@ -184,6 +184,17 @@
             margin-top: auto !important; /* Pushes button to bottom */
             margin-bottom: 0 !important;
         }
+
+        /* Prevent any HTML content from breaking layout */
+        .blog-three-column .news-block .news-inner-box * {
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .blog-three-column .news-block .news-inner-box p div {
+            display: inline !important; /* Ensure description content stays inline */
+        }
         .page-item.active .page-link {
   
     background-color: #002147 !important;
@@ -261,8 +272,10 @@ $sql = mysqli_query($conn, "SELECT * FROM tbl_blog WHERE status='1' ORDER BY id 
                 extract($row);
                 // Limit title to 60 characters
                 $limited_title = strlen($title) > 60 ? substr($title, 0, 60) . '...' : $title;
-                // Limit description to 150 characters for better consistency
-                $dec = strlen($row['description']) > 150 ? substr($row['description'], 0, 150) . '...' : $row['description'];
+                
+                // Strip HTML tags and limit description to 150 characters for better consistency
+                $clean_description = strip_tags($row['description']); // Remove all HTML tags
+                $dec = strlen($clean_description) > 150 ? substr($clean_description, 0, 150) . '...' : $clean_description;
             ?>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 news-block translateY">
                     <div class="news-inner-box">
