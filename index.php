@@ -240,9 +240,10 @@
                 data-bs-slide-to="7"></button>
         </div> <!-- The slideshow/carousel -->
         <div class="carousel-inner">
-            <div class="carousel-item active fade-in"> <img src="/public/images/banner/Website Banner1.webp"
-                    alt="IMS" class="d-block w-100"> </div>
-            <div class="carousel-item active fade-in"> <img src="/public/images/banner/Website_bannerConvocation.webp"
+            <div class="carousel-item active fade-in">
+                <img src="/public/images/banner/Website Banner1.webp" alt="IMS" class="d-block w-100">
+            </div>
+            <div class="carousel-item fade-in"> <img src="/public/images/banner/Website_bannerConvocation.webp"
                     alt="IMS" class="d-block w-100"> </div>
             <div class="carousel-item fade-in"> <img src="/public/images/banner/imersion_program02.jpg" alt="IMS"
                     class="d-block w-100"> </div>
@@ -261,7 +262,8 @@
             </div>
             <div class="carousel-item fade-in"> <img src="/public/images/banner/6.webp" alt="IMS" class="d-block w-100">
             </div>
-            <div class="carousel-item fade-in"> <img src="/public/images/banner/newLanding_page.jpg" alt="IMS" class="d-block w-100">
+            <div class="carousel-item fade-in"> <img src="/public/images/banner/newLanding_page.jpg" alt="IMS"
+                    class="d-block w-100">
             </div>
             <div class="carousel-item fade-in"> <img src="/public/images/banner/2.jpg" alt="IMS" class="d-block w-100">
             </div>
@@ -293,8 +295,7 @@
     <!-- Mobile Carousel -->
     <div class="mobile-carousel">
         <div class="carousel-track">
-            <div class="carousel-slide active"><img src="/public/images/banner/Website Banner1.webp"
-                    alt="IMS"></div>
+            <div class="carousel-slide active"><img src="/public/images/banner/Website Banner1.webp" alt="IMS"></div>
             <div class="carousel-slide active"><img src="/public/images/banner/Website_bannerConvocation.webp"
                     alt="IMS"></div>
             <div class="carousel-slide"><img src="/public/images/banner/imersion_program02.jpg" alt="IMS"></div>
@@ -1579,12 +1580,13 @@
                                         loading="lazy" />
 
                                     <img class="img-fluid shadow" style="float:right"
-                                        src="media/placement/<?php echo $student_image; ?>" alt="admissions at ims ghaziabad"
-                                        loading="lazy" />
+                                        src="media/placement/<?php echo $student_image; ?>"
+                                        alt="admissions at ims ghaziabad" loading="lazy" />
 
                                     <h5
                                         style="font-size: 15px;float:right;    padding-top: 20px;padding-right: 32px;color:white">
-                                        <?php echo $name; ?><br>(<?php echo $graduation_year; ?>)</h5>
+                                        <?php echo $name; ?><br>(<?php echo $graduation_year; ?>)
+                                    </h5>
                                 </figure>
 
                             </div>
