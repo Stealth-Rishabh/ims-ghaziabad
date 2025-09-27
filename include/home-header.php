@@ -223,10 +223,15 @@
                                 <li aria-haspopup="true"><a href="library-resources">Library </a></li>
                             </ul>
                         </li>
-                      
-                          <li aria-haspopup="true"><a href="alumni">Alumni</a></li>
-                        <li aria-haspopup="true"><a href="blog">Blogs</a></li>
-                        
+                        <li aria-haspopup="true">
+                            <a href="javascript:void(0)">More <i class="fas fa-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li aria-haspopup="true"><a href="faculty/mdp">MDP</a></li>
+                                <li aria-haspopup="true"><a href="alumni">Alumni</a></li>
+                                <li aria-haspopup="true"><a href="blog">Blogs</a></li>
+                            </ul>
+                        </li>
+
                         <li aria-haspopup="true" class="last-child"><a href="contact" style="font-weight: 600;text-transform: uppercase;font-size: 14px;border-radius: 0px;">Contact Us</a></li>
 
                         <!--<li aria-haspopup="true"><a class="shadow" href="#">Apply Now</a></li>-->
