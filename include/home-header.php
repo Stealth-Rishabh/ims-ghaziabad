@@ -197,26 +197,6 @@
                         </li>
 
                         <li aria-haspopup="true">
-                            <a href="javascript:void(0)"> Life@IMS <i class="fas fa-angle-down"></i></a>
-                            <ul class="sub-menu">
-                                <li aria-haspopup="true"><a href="lifeims/lecture-rooms">Lecture Rooms</a></li>
-                                <li aria-haspopup="true"><a href="lifeims/learn-grow">Learn & Grow </a></li>
-                                <li aria-haspopup="true"><a href="lifeims/residential-accommodation">Residential Accommodation  </a></li>
-                                <li aria-haspopup="true"><a href="lifeims/cafeteria">Cafeteria</a></li>
-                                <li aria-haspopup="true"><a href="lifeims/computer-labs">Computer Labs</a></li>
-                                <li aria-haspopup="true"><a href="lifeims/club-ims">Clubs IMS </a></li>
-                                <li aria-haspopup="true">
-                                    <a href="javascript:void(0)">Events</a>
-                                    <ul class="sub-menu">
-                                             <li aria-haspopup="true"><a href="https://sites.google.com/imsgzb.ac.in/imsncon-agi">IMSNCON.AGI 2025</a></li>
-                                        <li aria-haspopup="true"><a href="lifeims/event-melange-december-2024">Melange December 2024</a></li>
-                                        <li aria-haspopup="true"><a href="lifeims/event-melange-january-2024">Melange January 2024</a></li>
-                    
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li aria-haspopup="true">
                             <a href="javascript:void(0)">Research & Resources <i class="fas fa-angle-down"></i></a>
                             <ul class="sub-menu">
                                 <li aria-haspopup="true"><a href="research">Research</a></li>
@@ -229,6 +209,26 @@
                                 <li aria-haspopup="true"><a href="faculty/mdp">MDP</a></li>
                                 <li aria-haspopup="true"><a href="alumni">Alumni</a></li>
                                 <li aria-haspopup="true"><a href="blog">Blogs</a></li>
+                                <li aria-haspopup="true">
+                                    <a href="javascript:void(0)"> Life@IMS <i class="fas fa-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li aria-haspopup="true"><a href="lifeims/lecture-rooms">Lecture Rooms</a></li>
+                                        <li aria-haspopup="true"><a href="lifeims/learn-grow">Learn & Grow </a></li>
+                                        <li aria-haspopup="true"><a href="lifeims/residential-accommodation">Residential Accommodation </a></li>
+                                        <li aria-haspopup="true"><a href="lifeims/cafeteria">Cafeteria</a></li>
+                                        <li aria-haspopup="true"><a href="lifeims/computer-labs">Computer Labs</a></li>
+                                        <li aria-haspopup="true"><a href="lifeims/club-ims">Clubs IMS </a></li>
+                                        <li aria-haspopup="true">
+                                            <a href="javascript:void(0)">Events</a>
+                                            <ul class="sub-menu">
+                                                <li aria-haspopup="true"><a href="https://sites.google.com/imsgzb.ac.in/imsncon-agi">IMSNCON.AGI 2025</a></li>
+                                                <li aria-haspopup="true"><a href="lifeims/event-melange-december-2024">Melange December 2024</a></li>
+                                                <li aria-haspopup="true"><a href="lifeims/event-melange-january-2024">Melange January 2024</a></li>
+
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
 
