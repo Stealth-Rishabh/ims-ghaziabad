@@ -56,6 +56,11 @@ RewriteRule ^placements/placement-report/?$ /placement-report.php [L]
 RewriteRule ^placements/recruiter-testimonial/?$ /recruiter-testimonial.php [L]
 RewriteRule ^placements/post-a-job/?$ /post-a-job.php [L]
 
+# Programmes Section
+RewriteRule ^programmes/pgdm-in-marketing/?$ /pgdm-in-marketing.php [L]
+RewriteRule ^programmes/pgdm-in-operations/?$ /pgdm-in-operations.php [L]
+RewriteRule ^programmes/pgdm-in-business-analytics/?$ /pgdm-in-business-analytics.php [L]
+
 # LifeIMS Section
 RewriteRule ^lifeims/lecture-rooms/?$ /lecture-rooms.php [L]
 RewriteRule ^lifeims/learn-grow/?$ /learn-grow.php [L]
