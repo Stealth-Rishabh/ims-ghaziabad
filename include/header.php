@@ -186,7 +186,7 @@
                         </li>
 
                         <li aria-haspopup="true">
-                            <a href="javascript:void(0)">Programs <i class="fas fa-angle-down"></i></a>
+                            <a href="javascript:void(0)">Programmes <i class="fas fa-angle-down"></i></a>
                             <ul class="sub-menu">
                                 <li aria-haspopup="true"><a href="programmes/pgdm-in-marketing">PGDM in Marketing</a></li>
                                 <li aria-haspopup="true"><a href="programmes/pgdm-in-operations">PGDM in Operations</a></li>
