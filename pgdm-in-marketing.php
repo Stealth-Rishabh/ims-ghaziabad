@@ -138,19 +138,74 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="content_type">
-                                        <p>PGDM&nbsp;is a 2 year full time program approved by&nbsp;All India Council of Technical Education (AICTE)&nbsp;and equivalent to&nbsp;MBA&nbsp;by&nbsp;Association of Indian Universities (AIU)&nbsp;and accredited
-                                            by&nbsp;National Board of Accreditation (NBA).</p>
-
-                                        <p>It is a flagship programme of the Institute, which is highly rigorous, comprehensive and practice-oriented by design. To overcome increasingly multifaceted challenges, business leaders need to think creatively and
-                                            react strategically to gain and sustain competitive advantages. Thus, broadening horizons and enhancing skills is key element of any teaching-learning process. The Programme focuses on developing competent managerial
-                                            human resources for the Industry, who is ready to take on the challenges of the ever-changing corporate environment.</p>
-
-                                        <p>The curriculum is a unique blend of strategic thinking and pragmatism with three dimensional focus that is not only to achieve highest standards of academic excellence, but also to achieve highly effective corporate
-                                            interface backed with multi-dimensional development opportunities. The students are nurtured to be emotionally intelligent through inculcating human values and professional ethics so that they surpass competition
-                                            and excel better than the best.</p>
+                                        <p>Marketing is a strategic driver of business growth, connecting organizations with customers, markets, and society.</p>
+                                        <p>The Marketing area in a PGDM program emphasizes consumer behavior, marketing research, branding, advertising, sales, and digital strategies. It goes beyond traditional sales to shape business models, build brand identities, and expand global outreach. With a strong focus on digital platforms, analytics, and AI-driven automation, it equips students with both creative and analytical skills, preparing them for diverse careers in FMCG, e-commerce, retail, consulting, healthcare, technology, and more.</p>
 
                                     </div>
 
+                                </div>
+
+                                <div class="col-lg-12 mt-4">
+                                    <div class="tittle_bg mb-4">
+                                        <h3 class="text-white fs-4">Electives Grounded in Practice, Powered by Theory, Driven by Industry Demands</h3>
+                                    </div>
+                                    
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover shadow-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col" class="text-center" style="width: 10%;">S.N.</th>
+                                                    <th scope="col" class="text-center">Subject Name</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">1.</td>
+                                                    <td class="font-weight-500">Fundamentals of Marketing</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">2.</td>
+                                                    <td class="font-weight-500">Marketing Management</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">3.</td>
+                                                    <td class="font-weight-500">Sales & Distribution Management</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">4.</td>
+                                                    <td class="font-weight-500">Consumer Behaviour (Specialisation Core)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">5.</td>
+                                                    <td class="font-weight-500">Integrated Marketing Communication</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">6.</td>
+                                                    <td class="font-weight-500">Digital & Social Media Marketing</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">7.</td>
+                                                    <td class="font-weight-500">Marketing Analytics</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">8.</td>
+                                                    <td class="font-weight-500">Product & Brand Management</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">9.</td>
+                                                    <td class="font-weight-500">Marketing Research</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">10.</td>
+                                                    <td class="font-weight-500">Marketing of Services</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">11.</td>
+                                                    <td class="font-weight-500">Customer Relationship & Experience Management</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
 
 
