@@ -117,7 +117,7 @@
         <section class="position-relative breadcumb-wrapper" style="background-image: url(public/images/aboutcumbBnr.jpg)">
             <div class="container">
                 <div class="breadcumb-content position-relative zindex2 text-center wow fadeInUp">
-                    <h1 class="breadcumb-title text-white font-weight-700 position-relative">Post Graduate Diploma in Management</h1>
+                    <h1 class="breadcumb-title text-white font-weight-700 position-relative">Post Graduate Diploma in Marketing</h1>
                 </div>
             </div>
         </section>
@@ -129,7 +129,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-sm-12">
                         <div class="widget-title position-relative mb-4">
-                            <h1 class="font-weight-500">Post Graduate Diploma in Management (PGDM)</h1>
+                            <h1 class="font-weight-500">Marketing: Beyond the Box, Into the Future</h1>
                             <hr class="hr">
                         </div>
 
