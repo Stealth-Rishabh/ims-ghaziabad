@@ -211,14 +211,14 @@
 
                                 <div class="col-lg-12 mt-3">
                                     <div class="tittle_bg mb-4">
-                                        <h3 class="text-white fs-4">Programme Educational Objectives (PEO’s)</h3>
+                                        <h3 class="text-white fs-4">Teaching-Learning Approach</h3>
 
                                     </div>
 
                                     <div class="director__phto right position-relative">
                                         <div class="image-box position-relative">
                                             <figure class="image zindex2 shadow">
-                                                <a><img class="img-fluid" src="public/images/peo-pic.webp"></a>
+                                                <a><img class="img-fluid" src="public/images/pgdm_in_marketing.jpeg"></a>
                                             </figure>
                                         </div>
 
@@ -231,13 +231,12 @@
                                     <div class="listing_Dv p-2">
                                         <ul>
 
-                                            <li>Assume a leading role in teams and groups and offer innovative and sustainable solutions to complex issues facing industry and society</li>
-
-                                            <li>Effectively leveraging emerging technologies to improve decision- making, enhance efficiency and growth at the workplace.</li>
-
-                                            <li>Demonstrate ethics, values, good behavior and emotional intelligence while working in a socially and culturally diverse environment.</li>
-
-                                            <li>Engage in life-long learning in the diverse discipline of deep passion and explore possibilities to realize dreams while becoming socially responsible citizen contributing towards nation-building.</li>
+                                            <li>Case studies from HBR & CESIM simulations.</li>
+                                            <li>Live projects: Market research, sales audits, product launches with FMCG firms such as CavinKare, Dabur Ltd., Nestle India & startups.</li>
+                                            <li>Industry interface: Guest lectures, expert sessions, plant visits, global talks.</li>
+                                            <li>Industry Certifications & Workshops: Modules on Google Analytics, HubSpot Inbound Marketing, and Meta Ads Manager are often integrated.</li>
+                                            <li>Experiential learning: Role-plays, group projects, surveys, and paper publications.</li>
+                                            <li>Focus: Strategic mindset, creative flair & data literacy → industry-ready professionals.</li>
 
                                         </ul>
 
