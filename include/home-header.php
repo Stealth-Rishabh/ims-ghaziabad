@@ -186,6 +186,16 @@
                                 <li aria-haspopup="true"><a href="placements/post-a-job">Post a Job</a></li>
                             </ul>
                         </li>
+
+                        <li aria-haspopup="true">
+                            <a href="javascript:void(0)">Programs <i class="fas fa-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li aria-haspopup="true"><a href="programmes/pgdm-in-marketing">PGDM in Marketing</a></li>
+                                <li aria-haspopup="true"><a href="programmes/pgdm-in-operations">PGDM in Operations</a></li>
+                                <li aria-haspopup="true"><a href="programmes/pgdm-in-business-analytics">PGDM in Business Analytics</a></li>
+                            </ul>
+                        </li>
+
                         <li aria-haspopup="true">
                             <a href="javascript:void(0)"> Life@IMS <i class="fas fa-angle-down"></i></a>
                             <ul class="sub-menu">
