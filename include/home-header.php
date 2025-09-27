@@ -139,7 +139,7 @@
                                 </li>
                             </ul>
                         </li>
-                         <li aria-haspopup="true"><a href="faculty/mdp">MDP</a></li>
+                         
                          
                         <li aria-haspopup="true"><a href="javascript:void(0)">Faculty & Staff <i class="fas fa-angle-down"></i></a>
                             <ul class="sub-menu">
