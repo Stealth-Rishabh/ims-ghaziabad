@@ -5,11 +5,11 @@
     <?php include 'include/baseurl.php' ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale="1">
-    <title>Post Graduate Diploma in Management | IMS Ghaziabad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Post Graduate Diploma in Business Analytics | IMS Ghaziabad</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <link rel="canonical" href="https://ims-ghaziabad.ac.in/pgdm-programmes" />
+    <link rel="canonical" href="https://ims-ghaziabad.ac.in/pgdm-in-business-analytics" />
     <meta name="google-site-verification" content="B7GMgmL214oZmqNA26aHwQ2k8z-24IblhbDd0xOWns0" />
     <link rel="shortcut icon" type="image/x-icon" href="public/frontend/images/favicon.png" defer>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
@@ -117,7 +117,7 @@
         <section class="position-relative breadcumb-wrapper" style="background-image: url(public/images/aboutcumbBnr.jpg)">
             <div class="container">
                 <div class="breadcumb-content position-relative zindex2 text-center wow fadeInUp">
-                    <h1 class="breadcumb-title text-white font-weight-700 position-relative">Post Graduate Diploma in Management (Business Analytics)</h1>
+                    <h1 class="breadcumb-title text-white font-weight-700 position-relative">Post Graduate Diploma in Business Analytics</h1>
                 </div>
             </div>
         </section>
@@ -129,7 +129,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-sm-12">
                         <div class="widget-title position-relative mb-4">
-                            <h1 class="font-weight-500">Post Graduate Diploma in Management (PGDM - Business Analytics)</h1>
+                            <h1 class="font-weight-500">Business Analytics: Decoding Data, Delivering Value</h1>
                             <hr class="hr">
                         </div>
 
@@ -138,32 +138,97 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="content_type">
-                                        <p>PGDM&nbsp;is a 2 year full time program approved by&nbsp;All India Council of Technical Education (AICTE)&nbsp;and equivalent to&nbsp;MBA&nbsp;by&nbsp;Association of Indian Universities (AIU)&nbsp;and accredited
-                                            by&nbsp;National Board of Accreditation (NBA).</p>
-
-                                        <p>It is a flagship programme of the Institute, which is highly rigorous, comprehensive and practice-oriented by design. To overcome increasingly multifaceted challenges, business leaders need to think creatively and
-                                            react strategically to gain and sustain competitive advantages. Thus, broadening horizons and enhancing skills is key element of any teaching-learning process. The Programme focuses on developing competent managerial
-                                            human resources for the Industry, who is ready to take on the challenges of the ever-changing corporate environment.</p>
-
-                                        <p>The curriculum is a unique blend of strategic thinking and pragmatism with three dimensional focus that is not only to achieve highest standards of academic excellence, but also to achieve highly effective corporate
-                                            interface backed with multi-dimensional development opportunities. The students are nurtured to be emotionally intelligent through inculcating human values and professional ethics so that they surpass competition
-                                            and excel better than the best.</p>
-
+                                        <p>A Post Graduate Diploma in Management (PGDM) in Business Analytics focuses on developing expertise in leveraging data to drive strategic and operational decision-making. This specialization emphasizes the use of statistical, computational, and machine learning techniques to extract insights, identify trends, and optimize business performance. Business Analytics plays a crucial role across industries such as finance, marketing, retail, healthcare, IT services, e-commerce, and consulting, making it one of the most dynamic and in-demand fields in management education.</p>
+                                        <p>The relevance of Business Analytics has grown significantly with the rise of big data, digital transformation, and AI-driven solutions. Organizations are increasingly seeking professionals who can transform raw data into actionable insights, support evidence-based decisions, and enhance competitiveness. Business analysts are also central to predictive modelling, risk analysis, customer behaviour analysis, and performance monitoring, ensuring organizations remain agile and innovative in a rapidly evolving business environment.</p>
+                                        <p>The scope of a PGDM in Business Analytics is broad, preparing students for roles like business analyst, data analyst, data scientist, analytics consultant, marketing intelligence specialist, and operations analyst. The program equips graduates with analytical skills, proficiency in tools like Python, R, SQL, Power BI, and Tableau, and expertise in advanced methods such as predictive analytics, big data analytics, and AI/ML applications. As businesses continue to prioritize data-driven strategies for efficiency, innovation, and customer-centric growth, professionals in this domain will remain at the forefront of shaping competitive advantage and organizational success.</p>
                                     </div>
 
+                                </div>
+
+                                <div class="col-lg-12 mt-4">
+                                    <div class="tittle_bg mb-4">
+                                        <h3 class="text-white fs-4">Electives designed for blending technology, analytics, and decision science</h3>
+                                    </div>
+                                    
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover shadow-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col" class="text-center" style="width: 10%;">S.N.</th>
+                                                    <th scope="col" class="text-center">Subject Name</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">1.</td>
+                                                    <td class="font-weight-500">Business Analytics for Managers</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">2.</td>
+                                                    <td class="font-weight-500">Emerging Technologies and Sectorial Analysis</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">3.</td>
+                                                    <td class="font-weight-500">Design Thinking, Innovation and Technology</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">4.</td>
+                                                    <td class="font-weight-500">Big Data Analytics using Python</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">5.</td>
+                                                    <td class="font-weight-500">Business Intelligence for Decision Making</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">6.</td>
+                                                    <td class="font-weight-500">Reinventing Business Using Generative AI and ML</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">7.</td>
+                                                    <td class="font-weight-500">Technology Consulting</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">8.</td>
+                                                    <td class="font-weight-500">Social Media Analytics: Extracting Actionable Insights</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">9.</td>
+                                                    <td class="font-weight-500">Cloud Computing for Managers</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">10.</td>
+                                                    <td class="font-weight-500">Structured Thinking and Data Storytelling</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">11.</td>
+                                                    <td class="font-weight-500">Professional Upskilling & Life-Long Learning Modules</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="mt-3">
+                                        <h5 class="font-weight-600 mb-3">Professional Upskilling & Life-Long Learning Modules:</h5>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2">• Basics of MS Office</li>
+                                            <li class="mb-2">• Advance Excel</li>
+                                            <li class="mb-2">• Generative AI</li>
+                                            <li class="mb-2">• Prompt Engineering</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
 
                                 <div class="col-lg-12 mt-3">
                                     <div class="tittle_bg mb-4">
-                                        <h3 class="text-white fs-4">Programme Educational Objectives (PEO’s)</h3>
+                                        <h3 class="text-white fs-4">Teaching-Learning Approach</h3>
 
                                     </div>
 
                                     <div class="director__phto right position-relative">
                                         <div class="image-box position-relative">
                                             <figure class="image zindex2 shadow">
-                                                <a><img class="img-fluid" src="public/images/peo-pic.webp"></a>
+                                                <a><img class="img-fluid" src="public/images/pgdm_in_business_analytics.jpeg"></a>
                                             </figure>
                                         </div>
 
@@ -173,216 +238,29 @@
 
 
                                 <div class="col-lg-12 mt-3">
-                                    <div class="listing_Dv p-2">
+                                <div class="listing_Dv p-2">
                                         <ul>
 
-                                            <li>Assume a leading role in teams and groups and offer innovative and sustainable solutions to complex issues facing industry and society</li>
-
-                                            <li>Effectively leveraging emerging technologies to improve decision- making, enhance efficiency and growth at the workplace.</li>
-
-                                            <li>Demonstrate ethics, values, good behavior and emotional intelligence while working in a socially and culturally diverse environment.</li>
-
-                                            <li>Engage in life-long learning in the diverse discipline of deep passion and explore possibilities to realize dreams while becoming socially responsible citizen contributing towards nation-building.</li>
+                                            <li>The teaching-learning approach in a PGDM in Business Analytics is designed to integrate theoretical knowledge with applied learning, enabling students to master both the concepts and the practical tools required for data-driven decision-making.</li>
+                                            <li>The pedagogy emphasizes experiential and interactive methods, encouraging students to engage with real-world datasets, industry problems, and decision-making scenarios.</li>
+                                            <li>Case studies drawn from diverse sectors such as finance, marketing, retail, and healthcare are extensively used to illustrate how analytics can be applied to optimize business strategies and operations.</li>
+                                            <li>Simulations and data-driven exercises allow students to work with big data platforms, predictive models, and visualization tools, providing a dynamic environment for testing hypotheses and solving problems.</li>
+                                            <li>Live projects and internships with analytics-driven companies, consulting firms, and startups strengthen practical skills by exposing students to challenges like customer segmentation, forecasting, risk analysis, and AI/ML applications.</li>
+                                            <li>Industry interface forms an essential component, with regular guest lectures, workshops, hackathons, and analytics competitions led by industry professionals.</li>
+                                            <li>Exposure to tools such as Python, R, SQL, Tableau, Power BI, and cloud-based platforms equips students with the technical proficiency demanded by the industry.</li>
+                                            <li>Collaborative assignments, capstone projects, and research work further develop critical thinking, storytelling with data, and the ability to present actionable insights.</li>
+                                            <li>This blended pedagogy ensures graduates are industry-ready, capable of applying analytics to drive innovation, efficiency, and competitive advantage across diverse business functions.</li>
 
                                         </ul>
 
                                     </div>
-
                                 </div>
 
 
-                                <div class="col-lg-12 mt-3">
-                                    <div class="tittle_bg mb-4">
-                                        <h3 class="text-white fs-4">Programme Outcomes (POs)</h3>
+                                
 
-                                    </div>
 
-                                    <div class="director__phto position-relative">
-                                        <div class="image-box position-relative">
-                                            <figure class="image zindex2 shadow">
-                                                <a><img class="img-fluid" src="public/images/pos-pic.webp"></a>
-                                            </figure>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-lg-12 mt-3">
-                                    <div class="listing_Dv">
-                                        <p class="font-weight-700 fs-5">After completing the PGDM programme, students will be able to</p>
-
-                                        <ul>
-
-                                            <li>Apply knowledge of management theories and practices to solve business problems.</li>
-
-                                            <li>Foster Analytical and critical thinking abilities for data-based decision making.</li>
-
-                                            <li>Ability to develop Value-based Leadership ability.</li>
-
-                                            <li>Ability to understand, analyze and communicate global, economic, legal, and ethical aspects of a business.</li>
-
-                                            <li>Ability to lead themselves and others in the achievement of organizational goals, contributing effectively to a team environment.</li>
-
-                                            <li>Exhibit a holistic personality for professional excellence and employability.</li>
-
-                                            <li>Develop practical techno-managerial skills and competencies for becoming successful entrepreneurs in future.</li>
-
-                                            <li>Identify business opportunities, design and implement innovations in workspace.</li>
-
-                                        </ul>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-lg-12 mt-3">
-                                    <div class="tittle_bg mb-4">
-                                        <h3 class="text-white fs-4">Program Duration</h3>
-
-                                    </div>
-
-                                    <div class="director__phto right position-relative">
-                                        <div class="image-box position-relative">
-                                            <figure class="image zindex2 shadow">
-                                                <a><img class="img-fluid" src="public/images/pdur-pic.webp"></a>
-                                            </figure>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-lg-12 mt-3">
-                                    <div class="content_type">
-                                        <p>IMS Ghaziabad follows the trimester system with the academic calendar beginning in the month of July and each term being about 11-12 weeks duration. At the end of the first three terms of the program, all students
-                                            are required to undergo compulsory summer internship for 6-8 weeks in industry. </p>
-
-                                        <p>In the second year, students will be pursuing their specialization courses (Dual Specialization) along with compulsory Dissertation Project in the area of their chosen specialization.</p>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-lg-12 mt-3">
-                                    <div class="tittle_bg mb-4">
-                                        <h3 class="text-white fs-4">Specializations Offered</h3>
-
-                                    </div>
-
-                                    <div class="row text-center">
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/Finance-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Finance</h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/Marketing-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Marketing </h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/HRM-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Human Resource</h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/oscm-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Operations</h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/data-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Business Analytics</h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                    </div>
-
-                                </div>
+                                
 
                             </div>
 
