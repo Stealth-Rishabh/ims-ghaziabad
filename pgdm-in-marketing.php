@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Post Graduate Diploma in Management | IMS Ghaziabad</title>
+    <title>Post Graduate Diploma in Marketing | IMS Ghaziabad</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <link rel="canonical" href="https://ims-ghaziabad.ac.in/pgdm-programmes" />
+    <link rel="canonical" href="https://ims-ghaziabad.ac.in/pgdm-in-marketing" />
     <meta name="google-site-verification" content="B7GMgmL214oZmqNA26aHwQ2k8z-24IblhbDd0xOWns0" />
     <link rel="shortcut icon" type="image/x-icon" href="public/frontend/images/favicon.png" defer>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">

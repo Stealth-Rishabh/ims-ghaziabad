@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Post Graduate Diploma in Management | IMS Ghaziabad</title>
+    <title>Post Graduate Diploma in Operations Management | IMS Ghaziabad</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <link rel="canonical" href="https://ims-ghaziabad.ac.in/pgdm-programmes" />
+    <link rel="canonical" href="https://ims-ghaziabad.ac.in/pgdm-in-operations" />
     <meta name="google-site-verification" content="B7GMgmL214oZmqNA26aHwQ2k8z-24IblhbDd0xOWns0" />
     <link rel="shortcut icon" type="image/x-icon" href="public/frontend/images/favicon.png" defer>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
@@ -117,7 +117,7 @@
         <section class="position-relative breadcumb-wrapper" style="background-image: url(public/images/aboutcumbBnr.jpg)">
             <div class="container">
                 <div class="breadcumb-content position-relative zindex2 text-center wow fadeInUp">
-                    <h1 class="breadcumb-title text-white font-weight-700 position-relative">Post Graduate Diploma in Management (Operations)</h1>
+                    <h1 class="breadcumb-title text-white font-weight-700 position-relative">Post Graduate Diploma in Operations</h1>
                 </div>
             </div>
         </section>
@@ -129,7 +129,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-sm-12">
                         <div class="widget-title position-relative mb-4">
-                            <h1 class="font-weight-500">Post Graduate Diploma in Management (PGDM - Operations)</h1>
+                            <h1 class="font-weight-500">Operations: Innovating Systems, Inspiring Futures</h1>
                             <hr class="hr">
                         </div>
 
@@ -138,32 +138,95 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="content_type">
-                                        <p>PGDM&nbsp;is a 2 year full time program approved by&nbsp;All India Council of Technical Education (AICTE)&nbsp;and equivalent to&nbsp;MBA&nbsp;by&nbsp;Association of Indian Universities (AIU)&nbsp;and accredited
-                                            by&nbsp;National Board of Accreditation (NBA).</p>
-
-                                        <p>It is a flagship programme of the Institute, which is highly rigorous, comprehensive and practice-oriented by design. To overcome increasingly multifaceted challenges, business leaders need to think creatively and
-                                            react strategically to gain and sustain competitive advantages. Thus, broadening horizons and enhancing skills is key element of any teaching-learning process. The Programme focuses on developing competent managerial
-                                            human resources for the Industry, who is ready to take on the challenges of the ever-changing corporate environment.</p>
-
-                                        <p>The curriculum is a unique blend of strategic thinking and pragmatism with three dimensional focus that is not only to achieve highest standards of academic excellence, but also to achieve highly effective corporate
-                                            interface backed with multi-dimensional development opportunities. The students are nurtured to be emotionally intelligent through inculcating human values and professional ethics so that they surpass competition
-                                            and excel better than the best.</p>
-
+                                        <p>A Post Graduate Diploma in Management (PGDM) in Operations Management focuses on developing expertise in managing the production, manufacturing, and delivery of goods and services efficiently. This specialization emphasizes optimizing processes, resource utilization, and supply chain performance to enhance organizational productivity and customer satisfaction. Operations Management plays a crucial role across industries such as manufacturing, logistics, retail, healthcare, IT services, and e-commerce, making it a versatile and in-demand field.</p>
+                                        <p>The relevance of Operations Management has grown significantly with globalization, technological advancements, and competitive business environments. Companies increasingly seek professionals who can streamline processes, reduce costs, implement quality management systems, and leverage data-driven decision-making. Operations managers are also central to integrating sustainability practices, adopting automation, and enhancing agility in supply chains, ensuring organizations remain resilient to market disruptions.</p>
+                                        <p>The scope of a PGDM in Operations Management is broad, preparing students for roles like operations manager, supply chain analyst, logistics manager, procurement specialist, and process improvement consultant. The program equips graduates with analytical skills, strategic thinking, and expertise in tools like Six Sigma, Lean Management, ERP systems, and AI-driven analytics. As businesses continue to focus on efficiency, innovation, and customer satisfaction, professionals in this domain will remain integral to driving growth and operational excellence.</p>
                                     </div>
 
+                                </div>
+
+                                <div class="col-lg-12 mt-4">
+                                    <div class="tittle_bg mb-4">
+                                        <h3 class="text-white fs-4">Electives designed for innovation, agility, and adaptability.</h3>
+                                    </div>
+                                    
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover shadow-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col" class="text-center" style="width: 10%;">S.N.</th>
+                                                    <th scope="col" class="text-center">Subject Name</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">1.</td>
+                                                    <td class="font-weight-500">Statistics for Business Decision Making</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">2.</td>
+                                                    <td class="font-weight-500">Production and Operations Management</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">3.</td>
+                                                    <td class="font-weight-500">Research Applications in Business</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">4.</td>
+                                                    <td class="font-weight-500">Global Supply Chain & Logistics Management</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">5.</td>
+                                                    <td class="font-weight-500">Quantitative Techniques and Optimization</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">6.</td>
+                                                    <td class="font-weight-500">Services Operations Management</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">7.</td>
+                                                    <td class="font-weight-500">Project Management</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">8.</td>
+                                                    <td class="font-weight-500">Sales Operations Planning</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">9.</td>
+                                                    <td class="font-weight-500">Industry 4.0 in Operations</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">10.</td>
+                                                    <td class="font-weight-500">Operations Strategy</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">11.</td>
+                                                    <td class="font-weight-500">Enterprise Resource Planning</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">12.</td>
+                                                    <td class="font-weight-500">Quality and Lean Six Sigma</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center font-weight-600">13.</td>
+                                                    <td class="font-weight-500">Procurement Management</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
 
 
                                 <div class="col-lg-12 mt-3">
                                     <div class="tittle_bg mb-4">
-                                        <h3 class="text-white fs-4">Programme Educational Objectives (PEO’s)</h3>
+                                        <h3 class="text-white fs-4">Teaching-Learning Approach</h3>
 
                                     </div>
 
                                     <div class="director__phto right position-relative">
                                         <div class="image-box position-relative">
                                             <figure class="image zindex2 shadow">
-                                                <a><img class="img-fluid" src="public/images/peo-pic.webp"></a>
+                                                <a><img class="img-fluid" src="public/images/pgdm_in_operations.jpeg"></a>
                                             </figure>
                                         </div>
 
@@ -174,215 +237,18 @@
 
                                 <div class="col-lg-12 mt-3">
                                     <div class="listing_Dv p-2">
-                                        <ul>
-
-                                            <li>Assume a leading role in teams and groups and offer innovative and sustainable solutions to complex issues facing industry and society</li>
-
-                                            <li>Effectively leveraging emerging technologies to improve decision- making, enhance efficiency and growth at the workplace.</li>
-
-                                            <li>Demonstrate ethics, values, good behavior and emotional intelligence while working in a socially and culturally diverse environment.</li>
-
-                                            <li>Engage in life-long learning in the diverse discipline of deep passion and explore possibilities to realize dreams while becoming socially responsible citizen contributing towards nation-building.</li>
-
-                                        </ul>
-
+                                        <p>The teaching-learning approach in a PGDM in Operations Management is designed to combine theoretical foundations with practical exposure, ensuring students develop both conceptual clarity and hands-on expertise. Pedagogy emphasizes interactive and experiential learning, encouraging students to actively engage with real-world business challenges. Case studies from leading industries are extensively used to help students analyze operational problems, explore best practices, and develop strategic solutions.</p>
+                                        <p>Simulations and role-plays provide a dynamic environment for understanding complex systems like supply chains, production planning, and inventory management, enabling students to make decisions in a risk-free, real-time setting. Live projects and internships with manufacturing firms, logistics companies, and service organizations further strengthen practical skills by exposing students to operational challenges, process optimization, and performance improvement techniques.</p>
+                                        <p>Industry interface plays a significant role, with regular guest lectures, workshops, and plant visits conducted by industry experts to bridge academic knowledge and business practices. Analytical tools, enterprise resource planning (ERP) systems, and Lean Six Sigma methodologies are incorporated into coursework, equipping students with modern operational tools. Group assignments and research projects foster teamwork, problem-solving, and critical thinking skills. This blended approach ensures graduates are industry-ready, capable of applying operational strategies to achieve efficiency, innovation, and sustainable growth in diverse business settings.</p>
                                     </div>
 
                                 </div>
 
 
-                                <div class="col-lg-12 mt-3">
-                                    <div class="tittle_bg mb-4">
-                                        <h3 class="text-white fs-4">Programme Outcomes (POs)</h3>
+                                
 
-                                    </div>
 
-                                    <div class="director__phto position-relative">
-                                        <div class="image-box position-relative">
-                                            <figure class="image zindex2 shadow">
-                                                <a><img class="img-fluid" src="public/images/pos-pic.webp"></a>
-                                            </figure>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-lg-12 mt-3">
-                                    <div class="listing_Dv">
-                                        <p class="font-weight-700 fs-5">After completing the PGDM programme, students will be able to</p>
-
-                                        <ul>
-
-                                            <li>Apply knowledge of management theories and practices to solve business problems.</li>
-
-                                            <li>Foster Analytical and critical thinking abilities for data-based decision making.</li>
-
-                                            <li>Ability to develop Value-based Leadership ability.</li>
-
-                                            <li>Ability to understand, analyze and communicate global, economic, legal, and ethical aspects of a business.</li>
-
-                                            <li>Ability to lead themselves and others in the achievement of organizational goals, contributing effectively to a team environment.</li>
-
-                                            <li>Exhibit a holistic personality for professional excellence and employability.</li>
-
-                                            <li>Develop practical techno-managerial skills and competencies for becoming successful entrepreneurs in future.</li>
-
-                                            <li>Identify business opportunities, design and implement innovations in workspace.</li>
-
-                                        </ul>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-lg-12 mt-3">
-                                    <div class="tittle_bg mb-4">
-                                        <h3 class="text-white fs-4">Program Duration</h3>
-
-                                    </div>
-
-                                    <div class="director__phto right position-relative">
-                                        <div class="image-box position-relative">
-                                            <figure class="image zindex2 shadow">
-                                                <a><img class="img-fluid" src="public/images/pdur-pic.webp"></a>
-                                            </figure>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-lg-12 mt-3">
-                                    <div class="content_type">
-                                        <p>IMS Ghaziabad follows the trimester system with the academic calendar beginning in the month of July and each term being about 11-12 weeks duration. At the end of the first three terms of the program, all students
-                                            are required to undergo compulsory summer internship for 6-8 weeks in industry. </p>
-
-                                        <p>In the second year, students will be pursuing their specialization courses (Dual Specialization) along with compulsory Dissertation Project in the area of their chosen specialization.</p>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-lg-12 mt-3">
-                                    <div class="tittle_bg mb-4">
-                                        <h3 class="text-white fs-4">Specializations Offered</h3>
-
-                                    </div>
-
-                                    <div class="row text-center">
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/Finance-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Finance</h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/Marketing-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Marketing </h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/HRM-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Human Resource</h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/oscm-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Operations</h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="col-lg-4 col-md-6 col-6">
-                                            <div class="spec__item">
-                                                <div class="spec__photo">
-                                                    <div class="image-box position-relative">
-                                                        <figure class="image zindex2">
-                                                            <a><img class="img-fluid shadow" src="public/images/data-thumb.webp"></a>
-                                                        </figure>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="spec__content mt-3">
-                                                    <h4 class="text-blue fs-18">Business Analytics</h4>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                    </div>
-
-                                </div>
+                                
 
                             </div>
 
